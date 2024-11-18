@@ -6,7 +6,7 @@ Projekt ten zawiera implementację algorytmu **Random Forest** języku Python or
 
 - **Drzewo decyzyjne (DecisionTree)**: Implementacja drzewa decyzyjnego z losowym wyborem cechy i użyciem mediany jako progu podziału.
 - **Las losowy (RandomForest)**: Klasa, która tworzy wiele drzew decyzyjnych i łączy wyniki za pomocą głosowania większościowego.
-- **Porównanie**: W projekcie porównujemy działanie własnej implementacji z modelem Random Forest z biblioteki scikit-learn na zbiorze danych Iris.
+- **Porównanie**: W projekcie porównuje działanie własnej implementacji z modelem Random Forest z biblioteki scikit-learn na zbiorze danych Iris.
 
 ## Zawartość projektu
 
