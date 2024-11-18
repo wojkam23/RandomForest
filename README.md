@@ -40,8 +40,6 @@ Zbiór danych jest dostępny w bibliotece **scikit-learn** i składa się z 150 
 
 Poniżej znajduje się porównanie dokładności napisanego modelu oraz modelu z biblioteki **scikit-learn**:
 
-
-![Porównanie dokładności](images/accuracy_comparison.png)
 <img width="398" alt="accuracy_comparison" src="https://github.com/user-attachments/assets/52958682-70e6-4854-a378-040eae14e0ae">
 
 
@@ -51,7 +49,8 @@ Jak widać, napisany model osiągnął dokładność **0.8**, podczas gdy model 
 
 Własna implementacja lasu losowego zawiera szczegóły dotyczące każdego drzewa. Poniżej znajduje się przykładowy wynik wyświetlający informacje o drzewach:
 
-![Informacje o drzewach](images/tree_info.png)
+<img width="633" alt="tree_info" src="https://github.com/user-attachments/assets/cba50aa1-375e-4f7e-a8a2-876eebe7be91">
+
 
 Dla każdego drzewa wyświetlane są następujące informacje:
 - **Głębokość**: Maksymalna głębokość drzewa (ustawiona na 2).
@@ -61,8 +60,7 @@ Dla każdego drzewa wyświetlane są następujące informacje:
 ### 3. Wizualizacja granic decyzji
 
 Na poniższym wykresie przedstawiono porównanie granic decyzji dla napisanego modelu oraz modelu z biblioteki scikit-learn:
-
-![Granice decyzji](images/decision_boundaries.png)
+![decision_boundaries](https://github.com/user-attachments/assets/48eb2096-d009-472b-b900-f96a6ab02d3c)
 
 - **Lewy wykres**: Granice decyzji napisanego modelu Random Forest.
 - **Prawy wykres**: Granice decyzji modelu Random Forest z biblioteki scikit-learn.
@@ -72,7 +70,7 @@ Oba modele klasyfikują dane na zbiorze Iris, używając dwóch pierwszych cech:
 
 
 ### 4. Unnittesty
-![Unittest](images/unittest.png)
+<img width="188" alt="unittest" src="https://github.com/user-attachments/assets/b5e839f5-cacf-40e8-b172-29865015bf0b">
 
 Na grafice można zaobserwować wynik uruchomienia testów jednostkowych. Testy weryfikują poprawność działania modelu, sprawdzając trenowanie modelu bez błędów, prawidłowe przewidywanie wyników oraz osiągnięcie akceptowalnej dokładności (≥ 70%).
 
