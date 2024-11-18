@@ -42,6 +42,8 @@ Poniżej znajduje się porównanie dokładności napisanego modelu oraz modelu z
 
 
 ![Porównanie dokładności](images/accuracy_comparison.png)
+<img width="398" alt="accuracy_comparison" src="https://github.com/user-attachments/assets/52958682-70e6-4854-a378-040eae14e0ae">
+
 
 Jak widać, napisany model osiągnął dokładność **0.8**, podczas gdy model scikit-learn osiągnął dokładność **0.93**. Różnica ta wynika z implementacji stworzonego modelu, który stosuje losowe podziały i ma mniejszą liczbę estymatorów.
 
